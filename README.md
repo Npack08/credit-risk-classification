@@ -9,10 +9,15 @@ Explain what financial information the data was on, and what you needed to predi
 The financial data was stored in a csv file. Using panadas, I created a path to view the csv file data in a pandas dataframe. After creating the dataframe I then split the daya into training and testing sets.
 
 Describe the stages of the machine learning process you went through as part of this analysis.
-Briefly touch on any methods you used (e.g., LogisticRegression, or any resampling method).
-Results
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
+*First stage of this process was to prepare the data by creating a path for the csv file and creating a pandas data frame by reading the csv file. The data frame set is then split into X and Y labels. Value counts is then used to check the count of the labels. 
 
+Briefly touch on any methods you used (e.g., LogisticRegression, or any resampling method).
+*The LogisticsRegression model is used and the classifier is then established. The model is then split into training and testing data sets by using the train_test_split method using the original data. The training set was the x_train and y_train. 
+*Predictions are then made using the testing data. 
+
+Results
+Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models. 
+* The Balanced Accuracy Score, Confusion Matrix and Classification report are then used to make the predictions.
 Machine Learning Model 1:
 
 Description of Model 1 Accuracy, Precision, and Recall scores.
