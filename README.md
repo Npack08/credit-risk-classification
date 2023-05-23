@@ -34,7 +34,7 @@ High Risk Loan (1)= 0.99
 Healthy Loan (0)= .99
 High Risk Loan (1) = 0.99
 
-Summary
+Summary:
 My recommendation is the logistic regression model with the resampled training data as it had a higher ballanced accuracy score compared to the model using the original data.
 
 The model using the resampled training data performed the best at prediciting the high-risk loans which is the most important aspect for the problem presented.
